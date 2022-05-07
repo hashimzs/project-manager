@@ -1,0 +1,319 @@
+.container3{
+    max-width: 96%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.addbutton button{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(93, 33, 133);
+    border: none;
+    padding: 0.4rem 1.3rem;
+    color: white;
+    border-radius: 0.2rem;
+    z-index: -1;
+}
+.addbutton button:hover{
+    background-color: rgb(68, 19, 100);
+}
+.backbutton{
+    margin-top: 0.8rem;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(26, 27, 27);
+    gap: 1rem;
+}
+.backbutton:hover{
+
+    color: rgb(93, 33, 133);
+}
+.options-2{
+
+    margin-top:6rem ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.box-2{
+  
+    padding: 0.8rem 0 3rem 0;
+    height: 28rem;
+    border-radius:0.3rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 27rem;
+    width: 27rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.box-2:hover{
+   
+    background-color: rgb(241, 241, 241);
+}
+.box-2 h4{
+ 
+    font-size: 1.7rem;
+    
+}
+.box-2 p{
+
+    font-size: 1.2rem;
+}
+.box-2 .image{
+
+    width: 7rem;
+    height: 7rem;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+.box-2 .imagerow{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+}
+.box-2 .image3{
+ 
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: black;
+}
+.box-2 input{
+   
+font-size: 1.5rem;
+   padding: 0.5rem 0.9rem;
+   border: none;
+   border-radius: 0.3rem;
+   background-color: gainsboro; 
+   /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2); */
+   
+}
+
+.box-2 input:focus{
+    outline: none;
+    box-shadow: 0 2px 0 0 rgb(81, 27, 117);
+}
+
+
+.shifter-container{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+
+.create-button ,.join-button{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3rem;
+    background-color: rgb(93, 33, 133);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.create-button:hover,.join-button:hover{
+    background-color: rgb(81, 26, 117);
+}
+
+.input-tab{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.form.ticket-tab{
+    background-color: rgb(235, 232, 232);
+}
+.tab{
+ 
+    background-color: white;
+    height: 30rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.dateSelector{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+.dateSelector:hover{
+    color: blueviolet;
+    border-color: blueviolet;
+}
+.selecteduser{
+    background-color: white;
+}
+
+.buttons{
+
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+
+}
+.buttons button{
+
+    border: none;
+    border-radius: 0.3rem;
+    width: 10rem;
+    padding: 0.8rem 0;
+    color: white;
+    background-color: rgb(93, 33, 133);
+
+}
+.buttons button:hover{
+    background-color: rgb(68, 19, 100);
+}
+.tab input{
+
+    font-size: 2rem;
+    border: 0.2rem solid black;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    color: black;
+    width: 100%;
+}
+
+.tab input:focus{
+    outline: none;
+    
+}
+.name-field{
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+}
+.name-field h4,.dateSelector h4{
+    
+    font-size: 1.3rem;
+    color: rgb(139, 139, 139);
+    margin-bottom: 0.3rem;
+}
+.name-field input:focus {
+ border: 0.2rem solid  rgb(93, 33, 133);
+}
+.project-tab button{
+  
+    background: transparent;
+    border: none;
+}
+.project-tab h5{
+   
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+.arrow.active{
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.projects{
+    position: relative;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-items: stretch;
+    margin: 0 2%;
+    justify-content: space-around;
+}
+.project{
+    position: relative;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    height: 20rem;
+    max-width: 12.82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-width: 20rem;
+    border-radius: 0.5rem;
+    
+}
+.project .image{
+    position: relative;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    background-color: blueviolet;
+    text-transform: uppercase;
+}
+.project h4{
+    font-weight: 200;
+    width: 100%;
+    text-align: center;
+    overflow-wrap: break-word;padding: 0 2rem;
+}
+.project:hover{
+    background-color: rgb(224, 224, 224);
+}
+@media screen and (max-width:768px) {
+    .project{
+      min-width: 30rem;
+    }
+}
+
+@media screen and (max-width:1005px) and (min-width:768px) {
+    .project{
+        flex-basis: 30%;
+    }
+}
+
+@media screen and (max-width:1191px) and (min-width:1005px) {
+    .project{
+        flex-basis: 22%;
+    }
+}
+
+@media screen and (max-width:1240px) and (min-width:1191px) {
+    .project{
+        flex-basis: 22%;
+    }
+}

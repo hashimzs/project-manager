@@ -1,0 +1,149 @@
+
+.box-skl{
+    position: relative;
+    width: 100%;
+    height: initial;
+    padding: 0;
+    animation: skeleton 1s ease infinite alternate;
+}
+.box-skl h6{
+    
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0.2rem;
+    top: -3.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    color: white;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    height: 3.3rem;
+    width: 10rem;
+
+}
+
+
+
+
+.dropable-col-skl{
+    display: flex;
+    flex-direction: column;
+  
+    min-height: 2rem;
+  }
+  .ticket-skl{
+      box-shadow: 0 0 0.6rem rgb(202, 202, 202);
+      width: 100%;
+      font-size: 1.3rem;
+      font-weight: 700;
+      list-style: square;
+      border-radius: 0.3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.3rem;
+      margin-bottom: 0.4rem;
+      background-color: rgb(202, 202, 202);
+      height: 3rem;
+  }
+
+  @keyframes skeleton {
+      to{
+          opacity: 0.5;
+      }
+  }
+  .sidebar-skl{
+      animation: skeleton ease infinite 1s alternate
+  }
+
+
+  .project-info-skl{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .project-image-skl{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    background-color: rgb(202, 202, 202);
+    color: white;
+  }
+  
+  .project-title-skl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .categories-skl{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+    padding: 0.3rem 0rem 0.3rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(202, 202, 202);
+    height: 2.5rem;
+}
+.categories-skl span{
+    padding-top:0.1rem ;
+    padding-bottom: 0.1rem;
+}
+.group{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+
+
+.main-body-menu-skl{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 100;
+    animation: skeleton ease infinite 1s alternate
+  }
+  
+  .main-body-menu-skl .project-info-skl{
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+  }
+  .main-body-menu-skl .project-info-skl .project-image-skl-2{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    background-color: rgb(202, 202, 202);
+  }
+  
+  .main-body-menu-skl .project-info-skl .main-body-menu-title-skl{
+    font-size: 2rem;
+    position: relative;
+    height: 100%;
+    background-color: rgb(202, 202, 202);
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+  }
+.add-button-skl{
+    background-color: rgb(202, 202, 202);
+    width:8rem;
+    height: 2.5rem;
+    border:none;
+    border-radius: 0.5rem;
+
+}
